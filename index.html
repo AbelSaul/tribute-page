@@ -5,32 +5,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Tribute Page Steve Jobs</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-
     <nav class="navbar navbar-expand-md fixed-top navbar-light bg-info">
+      <div class="container">
+        <a class="navbar-brand" href="#" id="itms"><b>ITMS</b></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#colapsa"
+          aria-controls="colapsa"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-          <div class="container">
-              <a class="navbar-brand" href="#" ><b>STEP</b></a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#colapsa" aria-controls="colapsa" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+        <div class="collapse navbar-collapse" id="colapsa">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="#"
+                id="courses-tab"
+                role="tab"
+                aria-controls="courses"
+                aria-selected="false"
+                >COURSES
+              </a>
+            </li>
+          </ul>
+          <ul class="navbar-nav justify-content-end">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                ><i class="far fa-user"></i>
+              </a>
 
-              <div class="collapse navbar-collapse" >
-
-                  <ul class="navbar-nav justify-content-end">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" id="courses-tab" role="tab" aria-controls="courses" aria-selected="false">LOGROS </a>
-                    </li>
-
-                  </ul>
-
+              <div
+                class="dropdown-menu "
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <a class="dropdown-item" id="" href="#">Your Profile</a>
+                <a class="dropdown-item" id="" href="#">Settings</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" id="" href="#">Logout</a>
               </div>
-
-          </div>
-      </nav>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
     <div id="main">
       <section>
@@ -39,24 +78,50 @@
         </div>
         <div id="img-div">
           <figure>
-            <img src="img/imagenes.jpeg" alt="Steve Jobs" id="image" />
+            <img src="img/images.jpeg" alt="Steve Jobs" id="image" />
           </figure>
           <span class="img-caption">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
-            reprehenderit alias nemo labore perspiciatis error ratione
-            perferendis illum at reiciendis iure aliquam officia, blanditiis
-            nulla repudiandae sed debitis natus saepe.
+            Steve Jobs, el cofundador de Apple, es una leyenda viviente de
+            Silicon Valley, pues es el visionario detrás de los revolucionarios
+            inventos como la computadora Macintosh, el iPod, el iPhone y el
+            iPad.
           </span>
         </div>
       </section>
       <section>
         <div class="tribute-info">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad illum
-          iusto maxime nemo quod. Suscipit neque, ex provident ad culpa fuga
-          molestiae quasi, facere eum commodi dolorum! Architecto, velit
-          consequuntur!
+          <section class="product-right">
+            <div id="img-div">
+              <figure>
+                <img src="img/macintosh.jpg" alt="Steve Jobs" id="image" />
+              </figure>
+              <span class="img-product-caption">
+                Steve Jobs, el cofundador de Apple, es una leyenda viviente de
+                Silicon Valley, pues es el visionario detrás de los
+                revolucionarios inventos como la computadora Macintosh, el iPod,
+                el iPhone y el iPad.
+              </span>
+            </div>
+          </section>
+          <section class="product-left">
+            <figure>
+              <img src="img/ipod.png" alt="Steve Jobs" id="image" />
+            </figure>
+            <span class="img-product-caption">
+              Steve Jobs, el cofundador de Apple, es una leyenda viviente de
+              Silicon Valley, pues es el visionario detrás de los
+              revolucionarios inventos como la computadora Macintosh, el iPod,
+              el iPhone y el iPad.
+            </span>
+          </section>
         </div>
-        <a href="" id="tribute link" target="_blank">More information</a>
+
+        <a
+          href="https://en.wikipedia.org/wiki/Steve_Jobs"
+          id="tribute link"
+          target="_blank"
+          >Mas informacion</a
+        >
       </section>
     </div>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js."></script>
