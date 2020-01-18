@@ -13,15 +13,34 @@
     <nav class="navbar navbar-expand-md fixed-top navbar-light bg-info">
       <div class="container">
         <a class="navbar-brand" href="#" id="itms"><b>STEP</b></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#colapsa" aria-controls="colapsa" aria-expanded="false" aria-label="Toggle navigation">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#colapsa"
+          aria-controls="colapsa"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="colapsa">
-
           <ul class="navbar-nav justify-content-end">
             <li class="nav-item">
+<<<<<<< HEAD
               <a class="nav-link" href="#logros" id="courses-tab" role="tab" aria-controls="courses" aria-selected="false">LOGROS </a>
+=======
+              <a
+                class="nav-link"
+                href="#"
+                id="courses-tab"
+                role="tab"
+                aria-controls="courses"
+                aria-selected="false"
+                >LOGROS
+              </a>
+>>>>>>> 5d3a0f89ea528c1dad4b4a4a33a8029050d7cac6
             </li>
           </ul>
         </div>
@@ -55,30 +74,46 @@
       </div>
       <section id="logros">
         <div class="tribute-info">
-          <section class="product-right">
-            <div id="img-div">
-              <figure>
-                <img src="img/macintosh.jpg" alt="Steve Jobs" id="image" />
-              </figure>
-              <span class="img-product-caption">
-                Steve Jobs, el cofundador de Apple, es una leyenda viviente de
-                Silicon Valley, pues es el visionario detrás de los
-                revolucionarios inventos como la computadora Macintosh, el iPod,
-                el iPhone y el iPad.
-              </span>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm">
+                <div id="img-div">
+                  <figure class="justify-content-center">
+                    <img
+                      src="img/macintosh.png"
+                      alt="Steve Jobs"
+                      id="image"
+                      class="img-product"
+                    />
+                  </figure>
+                  <span class="img-product-caption">
+                    Macintosh, abreviado como Mac, es la línea de computadoras
+                    personales diseñada, desarrollada y comercializada por Apple
+                    Inc. En sus inicios fue una alternativa económica y
+                    doméstica al Lisa, un avanzado microcomputador empresarial.
+                  </span>
+                </div>
+              </div>
+              <div class="col-sm">
+                <div class="img-div">
+                  <figure>
+                    <img
+                      src="img/ipod.png"
+                      alt="Steve Jobs"
+                      id="image"
+                      class="img-product"
+                    />
+                  </figure>
+                  <span class="img-product-caption">
+                    iPod es una línea de reproductores de audio digital
+                    portátiles diseñados y comercializados por Apple Inc. Fue
+                    presentado por primera vez el 23 de octubre de 2001 por
+                    Steve Jobs.
+                  </span>
+                </div>
+              </div>
             </div>
-          </section>
-          <section class="product-left">
-            <figure>
-              <img src="img/ipod.png" alt="Steve Jobs" id="image" />
-            </figure>
-            <span class="img-product-caption">
-              Steve Jobs, el cofundador de Apple, es una leyenda viviente de
-              Silicon Valley, pues es el visionario detrás de los
-              revolucionarios inventos como la computadora Macintosh, el iPod,
-              el iPhone y el iPad.
-            </span>
-          </section>
+          </div>
         </div>
 
         <a
@@ -89,6 +124,7 @@
         >
       </section>
     </div>
+
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js."></script>
   </body>
 </html>
